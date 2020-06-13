@@ -64,13 +64,13 @@
 }
 
 a {
-  color: #1772d0;
+  color: #07889b;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #e37222;
   text-decoration: none;
 }
 
@@ -80,31 +80,34 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
+  font-size: 15px; /*14*/
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
+  font-size: 15px; /*14*/
 }
 
 heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
   font-size: 22px;
+  color: #e37222; /*#fc4a1a;*/
 }
 
 papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
+  font-size: 15px; /*14*/
   font-weight: 700
 }
 
 name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
+  font-size: 42px;
 }
-
+li:not(:last-child) {
+      margin-bottom: 5px;
+  }
 .one {
   width: 160px;
   height: 160px;
@@ -125,6 +128,7 @@ name {
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
 }
+
 
 span.highlight {
   background-color: #ffffd0;
