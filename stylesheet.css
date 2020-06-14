@@ -82,6 +82,7 @@ p,
 a {
   font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
   font-size: 15px; /*14*/
+  line-height: 1.3;
 }
 br{
   height:15px;
