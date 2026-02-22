@@ -98,6 +98,12 @@ heading {
   color: #e37222; /*#fc4a1a;*/
 }
 
+heading2 {
+  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
 papertitle {
   font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
   font-size: 15px; /*14*/
